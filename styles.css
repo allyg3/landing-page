@@ -6,7 +6,8 @@ body {
 /* HEADER */
 header{
     background-color: #ffdab9;
-    padding: 1em 9em
+    padding: 5em 9em;
+    padding-top: 20px;
 }
 .logo{
     width: 50px;
@@ -31,10 +32,15 @@ a:link, a:hover, a:visited, a:active{
 }
 /* WELCOME */
 
-    .three{
+.threee{
 width: 500px;
 height: auto;
+padding-left: 50px;
 }
+    .three{
+width: 200px;
+height: auto;
+    }
 .welcome{
     display: flex;
     padding: 4em 0;
@@ -61,11 +67,12 @@ height: auto;
 button {
 background-color: azure;
 border-radius: 8px;
-width: 120px;
-padding: 7px 1em;
+padding: 20px;
+width: 10px;
+
 }
 .welcome button{
-border: none;
+border: 1px #eee solid;
 }
 /* MAIN */
 
@@ -105,11 +112,28 @@ flex-direction: column;
 color: #fffaf0;
 font-size: large;
 }
+
 .fun-fact{
 display: flex;
 justify-content: center;
 align-items: center;
+font-weight: 900;
 }
 .credit{
 margin-left: 815px;
+font-style: italic;
 }
+/* FOOTER */
+footer {
+    position: ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    border-top: 50px white solid;
+
+  }
